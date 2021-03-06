@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-image: repeating-linear-gradient(red, yellow 10%, orange 20%);
+}
+img {
+    height: 350px;
+    width: 400px;
+    transition: transform .2s;
+}
+img:hover {
+    transform: scale(0.9);
+}
